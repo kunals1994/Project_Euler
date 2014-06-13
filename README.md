@@ -1,4 +1,4 @@
-<b>Project Euler Solutions </b>
+<h1><b>Project Euler Solutions </b></h1>
 
 This repository contains my solutions to <a href="http://projecteuler.net">Project Euler</a> problems as I solve them. 
 
