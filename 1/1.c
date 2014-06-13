@@ -1,20 +1,23 @@
 #include <stdio.h>
 
-int main (int argc, char* argv){
+int main (int argc, char** argv){
 	int sum;
 	int curr;
 
 	sum = 0;
 
-	for (curr = 0; curr < 1000; curr+=3){
+	curr = 0;
+	while (curr < 1000){
 		sum += curr;
+		curr += 3;
 	}
 
-	for (curr = 0; curr < 1000; curr+=5){
-		sum +=curr;
+	curr = 0;
+	while (curr < 1000){
+		sum += curr;
+		curr +=5;
 	}
 
-	printf("%d\n", curr);
-
+	printf ("%d\n", sum);
 	return curr; 
 }
