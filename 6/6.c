@@ -22,4 +22,7 @@ int main (int argc, char** argv){
 
 	printf("%d - %d = %d \n", square_of_sum, sum_of_squares, diff);
 
+
+	return 0;
+
 }

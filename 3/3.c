@@ -14,6 +14,8 @@ int main(int argc, char** argv){
 	out = find_largest_pf(INPUT);
 
 	printf("%li\n", out);
+
+	return 0;
 }
 
 long int is_prime (long int n){
