@@ -28,7 +28,7 @@ let range x y =
 	range_helper y []
 in
 
-let output_int = lcm_list (range lower_range upper_range) in 
+let main = lcm_list (range lower_range upper_range) in 
 
-print_int output_int;;
+print_int main;;
 print_char('\n');;
