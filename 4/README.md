@@ -6,3 +6,8 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 
 <b> My solution was an optimized brute force algorithm. </b>
+
+
+Answer:
+
+906609

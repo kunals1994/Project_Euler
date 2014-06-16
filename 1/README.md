@@ -8,3 +8,8 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 <h3>My Solution</h3>
 
 Loop through multiples of 3, then loop through multiples of 5. 
+
+
+Answer:
+
+266333
