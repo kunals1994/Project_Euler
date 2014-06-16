@@ -1,3 +1,6 @@
+let lower_range = 1;;
+let upper_range = 20;;
+
 let rec gcd x y = 
 	if (y == 0) then 
 		x
@@ -25,7 +28,7 @@ let range x y =
 	range_helper y []
 in
 
-let output_int = lcm_list (range 1 20) in 
+let output_int = lcm_list (range lower_range upper_range) in 
 
 print_int output_int;;
 print_char('\n');;
