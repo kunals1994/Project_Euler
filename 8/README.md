@@ -24,6 +24,11 @@ The four adjacent digits in the 1000-digit number that have the greatest product
 71636269561882670428252483600823257530420752963450
 Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
 
-Answer: 
+<h2> Note: </h2>
 
+There seem to be 2 different versions of this question. One which asks for the product of 13 adjacent digits, and one that asks for the product of 5 adjacent digits. Answers for both are below
+
+Answer (13 digits): 23514624000
+
+Answer (5 digits): 40824
 
