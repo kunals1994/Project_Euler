@@ -6,7 +6,7 @@ def main():
 
 
 lengths = {}
-# 
+# Establishing base cases
 lengths[0] = 0
 lengths[1] = len("one")
 lengths[2] = len("two")
