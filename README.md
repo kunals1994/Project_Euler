@@ -4,5 +4,3 @@ This repository contains my solutions to <a href="http://projecteuler.net">Proje
 
 Each problem has its own folder. The folder for each problem contains a README.md file with the problem. Complicated solutions are documented in comments in the code. 
 
-Each folder contains a file that with the output/solution for that problem. 
-
