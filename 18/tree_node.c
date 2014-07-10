@@ -22,16 +22,15 @@ struct tree_node* create_node(int val_in){
 	return ret;
 }
 
-static int insert_leaf(struct tree_node* node_in, int val_in){
-	
-}
-
 struct tree_node* tree_from_file(char* file_path){
 	FILE* f_in = fopen(file_path, "r");
 	char* line = calloc(TREE_NODE_BUF_SIZE, sizeof(char));
+	struct tree_node* ret = calloc (1, sizeof(struct tree_node));
+
+	fgets(line, TREE_NODE_BUF_SIZE, f_in);
 	
 	while(fgets(line, TREE_NODE_BUF_SIZE, f_in) != NULL){
-		printf("%lu ", strlen(line)/3);
+		printf("%lu \n", strlen(line)/3);
 	}
 
 	free(line);
@@ -55,7 +54,7 @@ int maximal_sum (struct tree_node* node_in){
 
 void destroy_tree (struct tree_node* node_in){
 	
-	if(node_in == NULL){ return; }
+	if(node_in == NULL){return;}
 
 	struct tree_node* n1 = node_in -> left;
 	struct tree_node* n2 = node_in -> right;
@@ -67,10 +66,12 @@ void destroy_tree (struct tree_node* node_in){
 }
 
 void put_left (struct tree_node* node_in, int left_val){
+	if(node_in == NULL){return;}
 	node_in -> left = create_node(left_val);
 }
 
 void put_right (struct tree_node* node_in, int right_val){
+	if(node_in == NULL){return;}
 	node_in -> right = create_node(right_val);
 }
 
