@@ -5,7 +5,10 @@
 
 #define TREE_NODE_BUF_SIZE 1024
 
+int num_nodes = 0;
+
 struct tree_node* create_node(int val_in){
+	num_nodes += 1;
 	struct tree_node* ret = calloc(1, sizeof(struct tree_node));
 
 	ret -> value = val_in;
@@ -67,6 +70,8 @@ struct tree_node* tree_from_file(char* file_path){
 	free(curr_row);
 	fclose(f_in);
 
+	printf("File Ingestion Complete with %d nodes\n", num_nodes);
+
 	return ret;
 }
 
@@ -97,6 +102,7 @@ static void destroy_left_node(struct tree_node* node_in){
 }
 
 void destroy_tree (struct tree_node* node_in){
+	num_nodes -= 1;
 	
 	if(node_in == NULL){return;}
 
