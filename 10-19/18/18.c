@@ -11,6 +11,9 @@ int main(int argc, char** argv){
 
 	num_tree = tree_from_file(argv[1]);
 	sum = maximal_sum(num_tree);
+
+	printf("%d\n", sum);
+
 	destroy_tree(num_tree);
 
 	return 0;
