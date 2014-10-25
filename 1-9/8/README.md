@@ -30,5 +30,4 @@ There seem to be 2 different versions of this question. One which asks for the p
 
 Answer (13 digits): 23514624000
 
-Answer (5 digits): 40824
 

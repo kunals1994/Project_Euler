@@ -106,13 +106,4 @@ Work out the first ten digits of the sum of the following one-hundred 50-digit n
 53503534226472524250874054075591789781264330331690
 
 
-Answer:
-
-
-
-
-
-
-
-
- 
+Answer: 5537376230 
